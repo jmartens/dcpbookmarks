@@ -12,7 +12,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 
 jimport( 'joomla.plugin.plugin' );
 
-define('DCP_URL', JURI::base()."plugins/content/dcpbookmarks");
+define('DCP_URL', JURI::base()."plugins/content/dcpbookmarks/dcpbookmarks");
 define('DCP_VER', '1.1.0');
 
 class plgContentDcpBookmarks extends JPlugin {
