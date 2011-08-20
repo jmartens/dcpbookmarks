@@ -30,7 +30,7 @@ class plgContentDcpBookmarks extends JPlugin {
 
         $doc =& JFactory::getDocument();
 
-        if($this->params->get(add_css) == 1) {
+        if($this->params->get('add_css') == 1) {
             $doc->addStyleSheet(DCP_URL."/style.css?ver=".DCP_VER);
         }
 
