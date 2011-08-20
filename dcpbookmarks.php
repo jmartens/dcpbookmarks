@@ -167,8 +167,9 @@ class plgContentDcpBookmarks extends JPlugin {
 
         $site_name = $title;
 
+		$short_url = $this->getShortUrl($perms);
+
         if($this->params->get('twitter') == 1 && $this->params->get('twittid') != "") {
-            $short_url = $this->getShortUrl($perms);
             $post_by = "RT+@".$this->params->get('twittid').":+";
         }
 
