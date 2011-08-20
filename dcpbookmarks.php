@@ -21,6 +21,10 @@ class plgContentDcpBookmarks extends JPlugin {
         parent::__construct( $subject, $config );
     }
 
+	function onContentBeforeDisplay($context, &$row, &$params, $page=0) {
+		return $this->onPrepareContent($row, $params, $page);
+	}
+
     function onPrepareContent( &$article, &$params, $limitstart='') {
         JPlugin::loadLanguage( 'plg_content_dcpbookmarks', JPATH_ADMINISTRATOR);
 
