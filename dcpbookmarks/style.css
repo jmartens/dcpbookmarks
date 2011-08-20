@@ -1,0 +1,244 @@
+div.dcp-bookmarks {
+    margin:20px 0 0 0;
+    clear: both !important;
+}
+div.dcp-bookmarks-expand {
+    height: 29px;
+    overflow: hidden;
+}
+.dcp-bookmarks-bg-dcp, .dcp-bookmarks-bg-caring, .dcp-bookmarks-bg-caring-old, .dcp-bookmarks-bg-love, .dcp-bookmarks-bg-wealth {
+    background-image:url('dcp-tekst.png') !important;
+    background-repeat: no-repeat;
+}
+div.dcp-bookmarks-bg-dcp {
+    padding: 28px 0 0 10px;
+    background-position: left -348px !important;
+}
+div.dcp-bookmarks-bg-caring {
+    padding: 26px 0 0 10px;
+    background-position: left 0 !important;
+}
+div.dcp-bookmarks-bg-caring-old {
+    padding: 26px 0 0 10px;
+    background-position: left -748px !important;
+}
+div.dcp-bookmarks-bg-love {
+    padding: 26px 0 0 10px;
+    background-position: left -1148px !important;
+}   
+div.dcp-bookmarks-bg-wealth {
+    margin-left: 15px !important;
+    padding: 35px 0 0 20px;
+    background-position: left -1535px !important;
+}
+div.dcp-bookmarks ul.socials {
+    width:100% !important;
+    margin:0 !important;
+    padding:0 !important;
+    float: left;
+}
+
+div.dcp-bookmarks ul.socials {
+    background:transparent none !important;
+    border:0 none !important;
+    outline:0 none !important;
+}
+
+div.dcp-bookmarks ul.socials li {
+    display:inline !important;
+    float:left !important;
+    list-style-type:none !important;
+    margin:0 !important;
+    height:29px !important;
+    width:60px !important;
+    cursor:pointer !important;
+    padding:0 !important;
+    background-color:transparent !important;
+    border:0 none !important;
+    outline:0 none !important;
+}
+
+div.dcp-bookmarks ul.socials li:before, div.dcp-bookmarks ul.socials li:after, div.dcp-bookmarks ul.socials li a:before, div.dcp-bookmarks ul.socials li a:after {
+    content:none !important;
+}
+
+div.dcp-bookmarks ul.socials a {
+    display:block !important;
+    width:60px !important;
+    height:29px !important;
+    text-indent: -9999px !important;
+    background-color:transparent !important;
+}
+
+div.dcp-bookmarks ul.socials a:hover, div.dcp-bookmarks ul.socials li:hover {
+    background-color:transparent !important;
+    border:0 none !important;
+    outline:0 none !important;
+}
+
+.dcp-diigo, .dcp-diigo:hover, .dcp-digg, .dcp-digg:hover, .dcp-reddit, .dcp-reddit:hover, .dcp-stumbleupon, .dcp-stumbleupon:hover, .dcp-delicious, .dcp-delicious:hover, .dcp-yahoobuzz, .dcp-yahoobuzz:hover, .dcp-blinklist, .dcp-blinklist:hover, .dcp-technorati, .dcp-technorati:hover, .dcp-facebook, .dcp-facebook:hover, .dcp-twitter, .dcp-twitter:hover, .dcp-myspace, .dcp-myspace:hover, .dcp-mixx, .dcp-mixx:hover, .dcp-hyves, .dcp-hyves:hover, .dcp-designfloat, .dcp-designfloat:hover, .dcp-comfeed, .dcp-comfeed:hover, .dcp-newsvine, .dcp-newsvine:hover, .dcp-devmarks, .dcp-devmarks:hover, .dcp-linkedin, .dcp-linkedin:hover, .dcp-google, .dcp-google:hover, .dcp-misterwong, .dcp-misterwong:hover, .dcp-izeby, .dcp-izeby:hover, .dcp-twittley, .dcp-twittley:hover, .dcp-tipd, .dcp-tipd:hover, .dcp-pfbuzz, .dcp-pfbuzz:hover, .dcp-friendfeed, .dcp-friendfeed:hover, .dcp-blogmarks, .dcp-blogmarks:hover, .dcp-fwisp, .dcp-fwisp:hover  {
+    background:url('dcp-logos.png') no-repeat !important;
+}
+
+.dcp-diigo {
+    background-position:-910px bottom !important;
+}
+.dcp-diigo:hover {
+    background-position:-910px top !important;
+}
+.dcp-digg {
+    background-position:-980px bottom !important;
+}
+.dcp-digg:hover {
+    background-position:-980px top !important;
+}
+.dcp-reddit {
+    background-position:-700px bottom !important;
+}
+.dcp-reddit:hover {
+    background-position:-700px top !important;
+}
+.dcp-stumbleupon {
+    background-position:-630px bottom !important;
+}
+.dcp-stumbleupon:hover {
+    background-position:-630px top !important;
+}
+.dcp-delicious {
+    background-position:-1190px bottom !important;
+}
+.dcp-delicious:hover {
+    background-position:-1190px top !important;
+}
+.dcp-yahoobuzz {
+    background-position:-1120px bottom !important;
+}
+.dcp-yahoobuzz:hover {
+    background-position:-1120px top !important;
+}
+.dcp-blinklist {
+    background-position:-1260px bottom !important;
+}
+.dcp-blinklist:hover {
+    background-position:-1260px top !important;
+}
+.dcp-technorati {
+    background-position:-560px bottom !important;
+}
+.dcp-technorati:hover {
+    background-position:-560px top !important;
+}
+.dcp-myspace {
+    background-position:-770px bottom !important;
+}
+.dcp-myspace:hover {
+    background-position:-770px top !important;
+}
+.dcp-twitter {
+    background-position:-490px bottom !important;
+}
+.dcp-twitter:hover {
+    background-position:-490px top !important;
+}
+.dcp-facebook {
+    background-position:-1330px bottom !important;
+}
+.dcp-facebook:hover {
+    background-position:-1330px top !important;
+}
+.dcp-mixx {
+    background-position:-840px bottom !important;
+}
+.dcp-mixx:hover {
+    background-position:-840px top !important;
+}
+.dcp-hyves {
+    background-position:-280px bottom !important;
+}
+.dcp-hyves:hover {
+    background-position:-280px top !important;
+}
+.dcp-designfloat {
+    background-position:-1050px bottom !important;
+}
+.dcp-designfloat:hover {
+    background-position:-1050px top !important;
+}
+.dcp-newsvine {
+    background-position:left bottom !important;
+}
+.dcp-newsvine:hover {
+    background-position:left top !important;
+}
+.dcp-google {
+    background-position:-210px bottom !important;
+}
+.dcp-google:hover {
+    background-position:-210px top !important;
+}
+.dcp-comfeed {
+    background-position:-420px bottom !important;
+}
+.dcp-comfeed:hover {
+    background-position:-420px top !important;
+}
+.dcp-devmarks {
+    background-position:-140px bottom !important;
+}
+.dcp-devmarks:hover {
+    background-position:-140px top !important;
+}
+.dcp-linkedin {
+    background-position:-70px bottom !important;
+}
+.dcp-linkedin:hover {
+    background-position:-70px top !important;
+}
+.dcp-misterwong {
+    background-position:-1400px bottom !important;
+}
+.dcp-misterwong:hover {
+    background-position:-1400px top !important;
+}
+.dcp-izeby {
+    background-position:-1470px bottom !important;
+}
+.dcp-izeby:hover {
+    background-position:-1470px top !important;
+}
+.dcp-twittley {
+    background-position:-1540px bottom !important;
+}
+.dcp-twittley:hover {
+    background-position:-1540px top !important;
+}
+.dcp-tipd {
+    background-position:-1610px bottom !important;
+}
+.dcp-tipd:hover {
+    background-position:-1610px top !important;
+}
+.dcp-pfbuzz {
+    background-position:-1680px bottom !important;
+}
+.dcp-pfbuzz:hover {
+    background-position:-1680px top !important;
+}
+.dcp-friendfeed {
+    background-position:-1750px bottom !important;
+}
+.dcp-friendfeed:hover {
+    background-position:-1750px top !important;
+}
+.dcp-blogmarks {
+    background-position:-1820px bottom !important;
+}
+.dcp-blogmarks:hover {
+    background-position:-1820px top !important;
+}
+.dcp-fwisp {
+    background-position:-1890px bottom !important;
+}
+.dcp-fwisp:hover {
+    background-position:-1890px top !important;
+}
